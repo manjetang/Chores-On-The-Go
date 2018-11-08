@@ -1,0 +1,24 @@
+.Apartment {
+    margin-left: 15%;
+}
+
+.apartmentOptions {
+    margin: 6em;
+    display: inline-block;
+}
+
+.pageTitle {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .pageTitle {
+        margin-bottom: 0;
+    }
+
+    .apartmentOptions {
+        margin: 3em;
+        display: inline-block;
+    }
+    
+}

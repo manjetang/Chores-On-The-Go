@@ -1,25 +1,27 @@
 {
   "name": "chores-on-the-go",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+  "engines": {
+    "node": "8.11.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node ./bin/www"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "eslint": "^4.19.1",
+    "express": "^4.15.5",
+    "jade": "~1.11.0",
+    "mongoose": "^5.1.2",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.6.5",
+    "serve-favicon": "~2.4.5"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }

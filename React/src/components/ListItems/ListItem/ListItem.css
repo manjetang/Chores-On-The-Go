@@ -1,0 +1,19 @@
+.resizeImage {
+    margin-right: 20px;
+}
+
+@font-face{
+    font-family: roomie-font;
+    src: url('../../../font/Proza-Regular.otf') format("opentype");
+}
+
+.temp {
+    font-size: 1.5em !important;
+    font-family: roomie-font !important;
+}
+
+@media screen and (max-width: 500px) {
+    .resizeImage {
+        margin-right: 7px;
+    }
+}

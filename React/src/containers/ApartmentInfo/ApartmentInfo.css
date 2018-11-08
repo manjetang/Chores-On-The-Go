@@ -1,0 +1,28 @@
+.ApartmentInfo {
+    margin: 2em 15%;
+}
+
+.pageTitle {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+@font-face {
+    font-family: roomie-font;
+    src: url('../../font/Proza-Regular.otf') format("opentype");
+}
+
+.user {
+    font-size: 2em !important;
+    font-family: roomie-font !important;
+}
+
+@media screen and (max-width: 500px) {
+    .pageTitle {
+        margin-bottom: 0;
+    }
+    .ApartmentInfo {
+        margin: 0 10% 0 20%;
+        width: inherit;
+    }
+}

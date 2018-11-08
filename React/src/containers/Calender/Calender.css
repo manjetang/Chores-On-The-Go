@@ -1,0 +1,23 @@
+.Calender {
+    margin: 2em 15%;
+}
+
+.pageTitle {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.subTitles {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    .pageTitle {
+        margin-bottom: 0;
+    }
+    .Calender {
+        margin: 0 10% 0 20%;
+        width: inherit;
+    }
+}
